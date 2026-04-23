@@ -1,0 +1,5 @@
+Environment,Service,Region,Spec_1,Spec_2,Quantity
+PROD,EC2,ap-south-1,t3.medium,50GB gp3,2
+PROD,RDS,ap-south-1,db.t4g.medium,Multi-AZ,1
+UAT,EC2,ap-south-1,t3.micro,20GB gp3,1
+UAT,S3,ap-south-1,500GB Standard,-,1

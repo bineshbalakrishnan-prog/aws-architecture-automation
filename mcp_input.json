@@ -1,0 +1,68 @@
+{
+    "metadata": {
+        "name": "Mumbai_DR_Strategy_Estimate",
+        "customer": "Internal_Reporting"
+    },
+    "groups": [
+        {
+            "groupName": "PROD",
+            "items": [
+                {
+                    "serviceCode": "AmazonEC2",
+                    "region": "ap-south-1",
+                    "description": "PROD - AmazonEC2",
+                    "usage": {
+                        "value": 2.0,
+                        "unit": "Quantity/Month"
+                    },
+                    "specifications": "t3.medium"
+                },
+                {
+                    "serviceCode": "AmazonRDS",
+                    "region": "ap-south-1",
+                    "description": "PROD - AmazonRDS",
+                    "usage": {
+                        "value": 1.0,
+                        "unit": "Quantity/Month"
+                    },
+                    "specifications": "db.t4g.medium"
+                },
+                {
+                    "serviceCode": "AWSDataTransfer",
+                    "region": "ap-south-1",
+                    "description": "PROD - AWSDataTransfer",
+                    "usage": {
+                        "value": 10240.0,
+                        "unit": "Quantity/Month"
+                    },
+                    "specifications": "Internet Outbound"
+                }
+            ]
+        },
+        {
+            "groupName": "UAT",
+            "items": [
+                {
+                    "serviceCode": "AmazonEC2",
+                    "region": "ap-south-1",
+                    "description": "UAT - AmazonEC2",
+                    "usage": {
+                        "value": 1.0,
+                        "unit": "Quantity/Month"
+                    },
+                    "specifications": "t3.micro"
+                },
+                {
+                    "serviceCode": "AmazonS3",
+                    "region": "ap-south-1",
+                    "description": "UAT - AmazonS3",
+                    "usage": {
+                        "value": 500.0,
+                        "unit": "Quantity/Month"
+                    },
+                    "specifications": "Standard Storage"
+                }
+            ]
+        }
+    ]
+}

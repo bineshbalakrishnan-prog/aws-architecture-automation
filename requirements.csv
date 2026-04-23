@@ -1,0 +1,6 @@
+Environment,Service,Region,Spec,Quantity
+PROD,AmazonEC2,ap-south-1,t3.medium,2
+PROD,AmazonRDS,ap-south-1,db.t4g.medium,1
+PROD,AWSDataTransfer,ap-south-1,Internet Outbound,10240
+UAT,AmazonEC2,ap-south-1,t3.micro,1
+UAT,AmazonS3,ap-south-1,Standard Storage,500
