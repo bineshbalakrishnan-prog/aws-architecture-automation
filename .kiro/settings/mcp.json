@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "aws-calculator": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@musheer360/aws-calculator-mcp"
+      ]
+    }
+  }
+}
